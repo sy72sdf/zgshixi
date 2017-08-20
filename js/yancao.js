@@ -1,5 +1,9 @@
 $(function(){
-	
+
+    $('#ceshigundong').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);});
+    $('#ceshigundong').mouseover(function () {
+        $('#ceshigundong').css("cursor","pointer");
+    })
 	var tanchu = setTimeout(function(){
 		$(".tanchu").show(0);
 		clearTimeout(tanchu);
